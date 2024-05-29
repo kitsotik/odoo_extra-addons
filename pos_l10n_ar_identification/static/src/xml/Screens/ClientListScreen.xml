@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+<t t-name="ClientListScreenNew" t-inherit="point_of_sale.PartnerListScreen" t-inherit-mode="extension" owl="1">
+    <xpath expr="//th[hasclass('partner-line-email')]" position="before">
+        <th t-if="!env.isMobile">Información Fiscal</th>
+    </xpath>
+
+</t>
+
+</templates>

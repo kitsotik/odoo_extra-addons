@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="ClientLineL10n_ar_afip" t-inherit="point_of_sale.PartnerLine" t-inherit-mode="extension" owl="1">
+        <xpath expr="//td[hasclass('partner-line-email')]" position="before">
+            <td t-if="!env.isMobile">
+                <div>
+                    <t t-esc='props.partner.l10n_ar_afip_responsibility_type_id[1] or ""'/>
+                </div>
+                <div>
+                    <t t-esc='props.partner.l10n_latam_identification_type_id[1] or ""'/>
+                </div>
+                <div>
+                    <t t-if="props.partner.vat"><t t-esc='props.partner.vat' /></t>
+                </div>
+            </td>
+        </xpath>
+
+
+    </t>
+
+</templates>
+
+
+
