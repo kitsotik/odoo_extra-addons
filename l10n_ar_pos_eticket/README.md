@@ -1,6 +1,5 @@
 POS eticket
 ===========
-
 Módulo para imprimir la Ticket eléctronico desde el POS.
 
 
