@@ -24,7 +24,6 @@ Company
 * `Pronexo <https://pronexo.com/>`__
 
 
-
 Contacts
 --------
 * Mail Contact : info@pronexo.com
