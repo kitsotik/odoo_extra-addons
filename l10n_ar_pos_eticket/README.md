@@ -12,12 +12,11 @@ En la configuración del terminal de punto de venta se agregaron las siguientes 
 
 - Mostrar N° Factura: muestra en el ticket los datos de la factura y CAE (si el diario seleccionado es factura electrónica)
 
-- Mostrar Cuit del cliente: para mostrar datos del cliente
+- Mostrar CUIT del cliente: para mostrar datos del cliente
 
 Luego de realizar un primer ticket podrá establecer cliente por defecto
 
 - Cliente por defecto
-
 
 
 Créditos
@@ -42,5 +41,3 @@ Odoo 15
 Odoo 16
 * Pronexo pos@pronexo.com
 * Juan Manuel De Castro <jm@pronexo.com>
-
-
